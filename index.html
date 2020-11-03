@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+    <section>
+        <h1>Idealgewichtsrechner</h1>
+        <form action="">
+            <label for="körpergröße">Körpergröße</label>
+            <br>
+            <br>
+            <input type="number" name="körper" id="körper">
+            <br>
+            <br>
+            <label for="alter">Alter</label>
+            <br>
+            <br>
+            <input type="number" name="alter" id="alter">
+            <br>
+            <br>
+            <label for="körperbau">Körperbau</label>
+            <br>
+            <br>
+            <input type="radio" name="bau" id="breite" value="breite">
+            <label for="">Breite</label>
+            <input type="radio" name="bau" id="schmale" value="schmale" checked>
+            <label for="">Schmale</label>
+            <br>
+            <br>
+            <button onclick="Submit()">Submit</button>
+
+        </form>
+
+        <div id="result"></div>
+    </section>
+</main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
